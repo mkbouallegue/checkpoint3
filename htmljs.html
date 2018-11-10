@@ -15,23 +15,19 @@
             <li><a><button onclick="mySous()">sousligné</button></a></li>
             <li><a><button onclick="myCenter()">Centrer</button></a></li>
 
-            <li><a><button>Font</button>
-            <ul>
-              <li><a><button type="button" onclick="myFont1()">font1</button></a></li>
-              <li><a><button type="button" onclick="myFont2()">font2</button></a></li>
-              <li><a><button type="button" onclick="myFont3()">font3</button></a></li>
-              </ul>
-            </li>
-            <li><a><button>Numero</button></a>
-            <ul>
-              <li><a><button type = "button" onclick ="myNumb1()">num1</button></a></li>
-              <li><a><button type = "button" onclick ="myNumb2()">num2</button></a></li>
-              <li><a><button type = "button" onclick ="myNumb3()">num3</button></a></li>
-              </ul>
-            </li>
-            </ul>
+            <select id ="listFonts" onchange="myFont()">
+              <option>Font</option>
+              <option>Verdana</option> 
+              <option>serif</option>
+              <option>sans-serif</option>
+            </select>
+            <select id ="listNumb" onchange="myNumb()">
+            <option>Numero</option>
           
-
+              <option>10px</option>
+              <option>15px</option>
+              <option>20px</option>
+            </select>
       </div>
       <div class="d1">
        <textarea name="" id="n" cols="180" rows="30">

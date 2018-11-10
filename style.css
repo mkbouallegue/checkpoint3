@@ -17,7 +17,7 @@ ul {
 }
 ul li {
   float :left;
-  width:200px;
+  width:100px;
   height:40px;
   background-color: black;
 }
@@ -47,12 +47,14 @@ ul li:hover ul li{
 }
 .d1{  
   position:fixed;
-  width:95%;
+  width:98%;
   top:180px;
   left:5px;
   bottom: 5px;
   margin-top: 10px;
   text-align: center;
+  opacity: .6 ;
+  float: left ;
   
 
 }
